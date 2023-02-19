@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="libs/themify-icons/css/themify-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="portfolio.css">
+    <iframe id="cv" name="cv" src="./assets/files/Andres_Posada_CV.pdf" hidden></iframe>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <ul class="social-icons">
+                <li class="social-item"><a class="social-link text-light" target="_blank" href="https://www.linkedin.com/in/andres-posada-1405b7191/"><i class="ti-linkedin" aria-hidden="true"></i></a></li>
+                <li class="social-item"><a class="social-link text-light" target="_blank" href="https://github.com/APS96"><i class="ti-github" aria-hidden="true"></i></a></li>
+            </ul>  
+            <div class="header-content">
+                <h4 class="header-top" >Hello, I am</h4>
+                <h1 class="header-mid">Andres Posada</h1>
+                <h6 class="header-bot" >Back End Developer | Developer</h6>
+                <button type="submit" class="btn btn-primary btn-rounded" onClick="document.getElementById('cv').contentWindow.print();">
+                    <i class="ti-printer"></i>
+                    &nbsp&nbspPrint Resume
+                </button>     
+             </div>
+        </div>
+    </header>
+    <nav id="nav" class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand d-lg-none" href="#">Menu</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbarToggler2"
+            aria-controls="myNavbarToggler2" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="myNavbarToggler2">
+            <ul class="navbar-nav mx-auto">
+                <a class="navbar-brand d-none d-lg-block" href="#">Menu</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Resume</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section class="main-container">
+        <section>
+            <div class="container-fluid">
+                <div id="about" class="row">
+                    <div class="col-lg-4 about-card">
+                        <h3 class="font-weight-light">Who am I ?</h3>
+                        <span class="line mb-5"></span>
+                        <h5 class="mb-3">A Back End Engineer / Developer Located In Colombiah</h5>
+                        <p class="mt-20">Passionate backend developer with an engineering management background. Experience in retail and e-commerce related systems,
+                            with a microservices arquitecture in AWS and a NestJs, Typescript, React and Tailwind stack.
+                        </p>
+                        <a href="./assets/files/Andres_Posada_CV.pdf" download="Andres_Posada_CV">
+                            <button class="btn btn-outline-danger">Download My CV</button>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 about-card">
+                        <h3 class="font-weight-light">Personal Info</h3>
+                        <span class="line mb-5"></span>
+                        <ul class="mt40 info list-unstyled">
+                            <li><span>Birthdate</span> : 28/12/1996</li>
+                            <li><span>Email</span> : andresposada015@gmail.com</li>
+                            <li><span>Phone</span> : + (57) 3137938895</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 about-card">
+                        <h3 class="font-weight-light">My Expertise</h3>
+                        <span class="line mb-5"></span>
+                        <div class="row">
+                            <div class="col-1 text-danger pt-1"><i class="ti-panel icon-lg"></i></div>
+                            <div class="col-10 ml-auto mr-3">
+                                <h6>System Design And Architecture</h6>
+                                <p class="subtitle"> Design, model and plan AWS services, databases and applications</p>
+                                <hr>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-1 text-danger pt-1"><i class="ti-cloud-up icon-lg"></i></div>
+                            <div class="col-10 ml-auto mr-3">
+                                <h6>Back End Development</h6>
+                                <p class="subtitle">Develop and test applications</p>
+                                <hr>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-1 text-danger pt-1"><i class="ti-stats-up icon-lg"></i></div>
+                            <div class="col-10 ml-auto mr-3">
+                                <h6>Business Management</h6>
+                                <p class="subtitle">Management of tech squads and business optimization strategies.</p>
+                                <hr>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <section class="section" id="resume">
+                <div class="container">
+                    <h2 class="mb-5"><span class="text-danger">My</span> Resume</h2>
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card">
+                               <div class="card-header">
+                                    <div class="mt-2">
+                                        <h4>Expertise</h4>
+                                        <span class="line"></span>  
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h6 class="title text-danger">2021 - 2022</h6>
+                                    <P>SENIOR SOFTWARE DEVELOPER AT NETA.MX</P>
+                                    <P class="subtitle">
+                                        • Design, structure and implement an e‑commerce platform from scratch in 
+                                        a productive environment<br>
+                                        • Design and lead the development of microservices using NestJs, MongoDB, 
+                                        MySQL and AWS for the creation of the Order Management System, Ware‑house 
+                                        System and Delivery System of the e‑commerce<br>
+                                        • Management of a development squad (Devs, QA, UX/UI and Scrum Master)</P>
+                                    <hr>
+                                    <h6 class="title text-danger">2021-2021</h6>
+                                    <P>E‑COMMERCE ANALYST AT ECOMSUR</P>
+                                    <P class="subtitle">
+                                        • Design and implementation, in python, of an internal system for the 
+                                        automation of analysts’ processes; purging and identifying data, connections
+                                        with own systems and connections with third‑party systems (Vtex)<br>
+                                        • Implementation from scratch of multiple e‑commerce for companies 
+                                        such as Samsung, Vans, Hershey’s, Phillips, Pandora, Shure, among others.<br>
+                                        • Training of new analysts in internal and external platforms and 
+                                        in the internal system for processes’ automation
+                                    </P>
+                                    <hr>
+                                    <h6 class="title text-danger">2018 - 2020</h6>
+                                    <P>INDEPENDENT</P>
+                                    <P class="subtitle">
+                                        • Planning and teaching classses in the subjects of programming 
+                                        fundamentals, data structures, object oriented programming, 
+                                        mathematics, physics, macroeconomics.<br>
+                                        • Freelance projects in software development, design and 
+                                        implementation of web pages and data analysis in languages 
+                                        such as Java, Python and R<br>
+                                        • Customer management and requirement gathering
+                                    </P>
+                                    <h6 class="title text-danger">2017 - 2017</h6>
+                                    <P>INDEPENDENT</P>
+                                    <P class="subtitle">
+                                        • Management of suppliers and logistics providers from China, 
+                                        Pakistan, India for textile imports.<br>
+                                        • Design and implementation of a system for the organization, 
+                                        filter and reporting of containers.<br>
+                                        • Creation and storage of documentation for each of the 
+                                        containers entered.
+                                    </P>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card">
+                               <div class="card-header">
+                                    <div class="mt-2">
+                                        <h4>Education</h4>
+                                        <span class="line"></span>  
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h6 class="title text-danger">2016 - 2021</h6>
+                                    <P>B.E ENGINEERING MANAGEMENT </P>
+                                    <P class="subtitle">5 year bachelors in business with focus on logic and math.</P>
+                                    <hr>
+                                    <h6 class="title text-danger">2017-2023</h6>
+                                    <P>B.E COMPUTER SCIENCE </P>
+                                    <P class="subtitle">5 year bachelors in computer science</P>
+                                    <hr>
+                                    <h6 class="title text-danger">2001 - 2015</h6>
+                                    <P>HIGH SCHOOL DEGREE</P>
+                                    <P class="subtitle">High School degree in The Columbus School</P>
+                                    <hr>
+                                    <h6 class="title text-danger">2019-2021</h6>
+                                    <P>ADDITIONAL STUDIES AT EIA UNIVERSITY</P>
+                                    <P class="subtitle">
+                                        • Leadership Course‑2021<br>
+                                        • Digital Transformation Course‑2020<br>
+                                        • Data Analisis Course‑2019<br>
+                                        • CFA National Competition Finalist‑2019<br>
+                                        • Company Valuation Course‑2019
+                                    </P>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card">
+                               <div class="card-header">
+                                    <div class="pull-left">
+                                        <h4 class="mt-2">Skills</h4>
+                                        <span class="line"></span>  
+                                    </div>
+                                </div>
+                                <div class="card-body pb-2">
+                                    <h6>JavaScript/Typescript</h6>
+                                    <div class="progress mb-3">
+                                        <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <h6>SQL (MySQL,POSTGRES)</h6>
+                                    <div class="progress mb-3">
+                                        <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <h6>AWS</h6>
+                                    <div class="progress mb-3">
+                                        <div class="progress-bar bg-danger" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <h6>React</h6>
+                                    <div class="progress mb-3">
+                                        <div class="progress-bar bg-danger" role="progressbar" style="width: 65%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <h6>Python</h6>
+                                    <div class="progress mb-3">
+                                        <div class="progress-bar bg-danger" role="progressbar" style="width: 50%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                               <div class="card-header">
+                                    <div class="pull-left">
+                                        <h4 class="mt-2">Languages</h4>
+                                        <span class="line"></span>  
+                                    </div>
+                                </div>
+                                <div class="card-body pb-2">
+                                    <h6>Spanish</h6>
+                                    <div class="progress mb-3">
+                                        <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                   <h6>English</h6>
+                                    <div class="progress mb-3">
+                                        <div class="progress-bar bg-danger" role="progressbar" style="width: 95%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <h6>German</h6>
+                                    <div class="progress mb-3">
+                                        <div class="progress-bar bg-danger" role="progressbar" style="width: 60%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <h6>French</h6>
+                                    <div class="progress mb-3">
+                                        <div class="progress-bar bg-danger" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </section>
+    <footer class="footer">
+        <p class="item">ANDRES POSADA SALDARRIAGA</p>>
+        <p class="item">PORTFOLIO</p>>
+        <p class="item">EIA UNIVERSITY 2023</p>>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./portfolio.js"></script>
+</body>
+</html>
